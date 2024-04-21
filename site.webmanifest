@@ -1,0 +1,12 @@
+{
+  "short_name": "m8c",
+  "name": "m8c",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#081820",
+  "theme_color": "#081820"
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>m8c - a cross-platform Dirtywave M8 tracker headless client</title>
+  <link href="css/style.css" rel="stylesheet">
+  <meta content="" name="description">
+
+  <meta content="m8c - a cross-platform Dirtywave M8 tracker headless client" property="og:title">
+  <meta content="website" property="og:type">
+  <meta content="https://m8c.laamaa.fi" property="og:url">
+  <meta content="https://m8c.laamaa.fi/img/m8c.png" property="og:image">
+  <meta content="m8c" property="og:image:alt">
+
+  <link href="/favicon.ico" rel="icon" sizes="any">
+  <link href="/icon.png" rel="icon">
+  <link href="icon.png" rel="apple-touch-icon">
+
+  <link href="site.webmanifest" rel="manifest">
+  <meta content="#081820" name="theme-color">
+</head>
+
+<body>
+
+<header>
+  <div class="title">
+    <h1>m8c</h1>
+  </div>
+  <nav>
+    <div class="links">
+      <a href="https://github.com/laamaa/m8c/releases/latest">Download</a> - <a href="https://github.com/laamaa/m8c">Source
+      code</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="content">
+    <h2>Introduction</h2>
+    <p>The <a href="https://dirtywave.com/products/m8-tracker">Dirtywave M8 Tracker</a> is a portable sequencer and
+      synthesizer, featuring 8 tracks of assignable instruments such as FM, waveform synthesis, virtual analog, sample
+      playback, and MIDI output. It is powered by a Teensy microcontroller and inspired by the Game Boy tracker Little
+      Sound DJ.</p>
+    <p>While Dirtywave makes new batches of units available on a regular basis, M8 is sometimes sold out due to the
+      worldwide chip shortage and high demand of the unit. To fill this gap and to allow users to freely test this
+      wonderful tracker, the creator (Trash80) was kind enough to make the M8 Headless available to everyone.</p>
+    <p>If you like the M8 and you gel with the tracker workflow, please support Dirtywave by purchasing the actual unit.
+      You can check its availability <a href="https://dirtywave.com/products/m8-tracker-model-02">here</a>. Meanwhile,
+      you can also subscribe to <a href="https://www.patreon.com/trash80">Trash80's Patreon</a>.</p>
+
+    <p><strong>m8c</strong> is a client for Dirtywave M8 tracker's headless mode. The application should be
+      cross-platform ready and can be built in Linux, Windows (with MSYS2/MINGW64) and macOS.</p>
+
+    <p>Many thanks to:</p>
+    <ul>
+      <li>Trash80 for the great M8 hardware.</li>
+      <li>driedfruit for a wonderful little routine to blit inline bitmap fonts,
+        <a href="https://github.com/driedfruit/SDL_inprint/">https://github.com/driedfruit/SDL_inprint/</a>
+      </li>
+      <li>marcinbor85 for the slip handling routine, <a href="https://github.com/marcinbor85/slip">https://github.com/marcinbor85/slip</a>
+      </li>
+      <li>turbolent for the great Golang-based g0m8 application, which I used as reference on how the M8 serial protocol
+        works.
+      </li>
+      <li><i><strong>Everyone who's contributed to m8c!</strong></i></li>
+    </ul>
+  </div>
+  <div class="gif-animation">
+    <img src="img/jimmac-m8c.gif" alt="Pixel art image of a technical control center, with oscilloscope and text displays and wires connected to a Dirtywave M8">
+    <p class="image-credit">Image by: Jakub Steiner</p>
+  </div>
+</main>
+
+</body>
+
+</html>
